@@ -81,8 +81,7 @@ const playlist = [
 "music/song8.mp3",
 "music/song9.mp3",
 "music/song10.mp3",
-"music/song11.mp3",
-"music/song12.mp3"
+"music/song11.mp3"
 ]
 
 const bgMusic = new Audio()
@@ -158,3 +157,4 @@ let porcentaje = (progreso/total)*100
 if(porcentaje>100) porcentaje=100
 
 document.getElementById("barraProgreso").style.width = porcentaje+"%"
+
